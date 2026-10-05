@@ -37,6 +37,7 @@ public class BookService {
 
         existingBook.setName(book.getName());
         existingBook.setPrice(book.getPrice());
+        existingBook.setStock(book.getStock());
 
         return bookRepository.save(existingBook);
     }
