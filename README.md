@@ -1,5 +1,21 @@
-# Kitap API
+## Çalıştırma
 
-Spring Boot kullanılarak geliştirilmiş basit bir kitap yönetim REST API'sidir.
+Projeyi Gradle ile çalıştırmak için:
 
-Bu API ile kitap ekleme, listeleme, görüntüleme, güncelleme ve silme işlemleri yapılabilir.
+`.\gradlew bootRun`
+
+API adresi:
+
+`http://localhost:8080/books`
+
+Örnek kitap ekleme isteği:
+
+```http
+POST /books
+Content-Type: application/json
+
+{
+  "name": "Suç ve Ceza",
+  "price": 150,
+  "stock": 10
+}
