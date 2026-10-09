@@ -8,7 +8,7 @@ import jakarta.validation.constraints.PositiveOrZero;
 import jakarta.validation.constraints.NotBlank;
 
 @Entity
-public class Book {
+public class Product {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
