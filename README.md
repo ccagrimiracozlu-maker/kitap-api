@@ -6,12 +6,12 @@ Projeyi Gradle ile çalıştırmak için:
 
 API adresi:
 
-`http://localhost:8080/books`
+`http://localhost:8080/Products`
 
 Örnek kitap ekleme isteği:
 
 ```http
-POST /books
+POST /Products
 Content-Type: application/json
 
 {
